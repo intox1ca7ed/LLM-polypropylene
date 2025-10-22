@@ -1,0 +1,9 @@
+,series,transformation,test,statistic,p_value,verdict
+0,Polypropylene (PP),level,ADF,-2.788716985798929,0.05990362877141564,likely non-stationary
+1,Polypropylene (PP),level,KPSS,0.3180403376770918,0.1,likely stationary
+2,Crude Oil,level,ADF,-2.286521273053369,0.17635198583868267,likely non-stationary
+3,Crude Oil,level,KPSS,1.0075829224887367,0.01,likely non-stationary
+4,Polypropylene (PP) returns,return,ADF,-6.018972935329336,1.509691402221107e-07,likely stationary
+5,Polypropylene (PP) returns,return,KPSS,0.05870099755303627,0.1,likely stationary
+6,Crude Oil returns,return,ADF,-8.922463985226209,1.0322474088384867e-14,likely stationary
+7,Crude Oil returns,return,KPSS,0.037277797262591526,0.1,likely stationary
