@@ -1,33 +1,29 @@
+from pathlib import Path
+
 import pandas as pd
-import os
 
-# Load the CSV file
-file_path = "data/prices/polypropylene_weekly.csv"
+BASE_DIR = Path(__file__).resolve().parents[2]
+PRICE_DIR = BASE_DIR / "data" / "prices"
+PRICE_DIR.mkdir(parents=True, exist_ok=True)
 
-# Read data
-df = pd.read_csv(file_path)
+INPUT_PATH = PRICE_DIR / "polypropylene_weekly.csv"
+OUTPUT_PATH = PRICE_DIR / "polypropylene_weekly_clean.csv"
 
-print("Original columns:", df.columns)
 
-# Clean column names
-df.columns = df.columns.str.strip().str.lower().str.replace('.', '', regex=False)
+def main():
+    df = pd.read_csv(INPUT_PATH)
+    print("Original columns:", df.columns)
 
-# Convert date column to datetime
-df['date'] = pd.to_datetime(df['date'], errors='coerce')
+    df.columns = df.columns.str.strip().str.lower().str.replace(".", "", regex=False)
+    df["date"] = pd.to_datetime(df["date"], errors="coerce")
+    df = df.sort_values("date")
+    df["price"] = df["price"].astype(str).str.replace(",", "", regex=False).astype(float)
+    df["commodity"] = "Polypropylene_Futures"
 
-# Sort by date
-df = df.sort_values('date')
+    df = df[["date", "commodity", "price"]]
+    df.to_csv(OUTPUT_PATH, index=False)
+    print(f"Cleaned polypropylene weekly prices saved to {OUTPUT_PATH}")
 
-# If price is stored with commas (e.g., '1,230'), remove them
-df['price'] = df['price'].astype(str).str.replace(',', '').astype(float)
 
-# Add commodity name
-df['commodity'] = 'Polypropylene_Futures'
-
-# Keep only the relevant columns
-df = df[['date', 'commodity', 'price']]
-
-# Save clean version
-output_path = "data/prices/polypropylene_weekly_clean.csv"
-df.to_csv(output_path, index=False)
-print(f" Cleaned polypropylene weekly prices saved to {output_path}")
+if __name__ == "__main__":
+    main()

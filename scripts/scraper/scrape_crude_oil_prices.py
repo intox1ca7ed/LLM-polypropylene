@@ -1,50 +1,51 @@
-import yfinance as yf
-import pandas as pd
-from datetime import datetime
 import os
+from datetime import datetime
+from pathlib import Path
 
-# Ensure output folder exists
-os.makedirs('data/prices', exist_ok=True)
+import pandas as pd
+import yfinance as yf
 
-# Define ticker symbols and names
-tickers = {
-    "WTI_Crude": "CL=F",   # WTI Crude Oil
-    "Brent_Crude": "BZ=F"  # Brent Crude Oil
-}
+BASE_DIR = Path(__file__).resolve().parents[2]
+PRICE_DIR = BASE_DIR / "data" / "prices"
+PRICE_DIR.mkdir(parents=True, exist_ok=True)
 
-# Date range
-start_date = "2015-01-01"
-end_date = datetime.now().strftime("%Y-%m-%d")
 
-data_frames = []
+def main():
+    tickers = {
+        "WTI_Crude": "CL=F",
+        "Brent_Crude": "BZ=F",
+    }
 
-# Fetch data
-for name, symbol in tickers.items():
-    print(f"Fetching data for {name} ({symbol})...")
-    df = yf.download(symbol, start=start_date, end=end_date)
-    df.reset_index(inplace=True)
-    df["Commodity"] = name
-    data_frames.append(df)
+    start_date = "2015-01-01"
+    end_date = datetime.now().strftime("%Y-%m-%d")
 
-# Combine
-combined_df = pd.concat(data_frames, ignore_index=True)
+    data_frames = []
+    for name, symbol in tickers.items():
+        print(f"Fetching data for {name} ({symbol})...")
+        df = yf.download(symbol, start=start_date, end=end_date)
+        df.reset_index(inplace=True)
+        df["Commodity"] = name
+        data_frames.append(df)
 
-# Keep relevant columns (exclude Adj Close)
-combined_df = combined_df[["Date", "Commodity", "Open", "High", "Low", "Close", "Volume"]]
+    combined_df = pd.concat(data_frames, ignore_index=True)
+    combined_df = combined_df[["Date", "Commodity", "Open", "High", "Low", "Close", "Volume"]]
 
-# Save daily data
-combined_df.to_csv('data/prices/crude_oil_daily.csv', index=False)
-print("Daily crude oil prices saved to data/prices/crude_oil_daily.csv")
+    daily_path = PRICE_DIR / "crude_oil_daily.csv"
+    combined_df.to_csv(daily_path, index=False)
+    print(f"Daily crude oil prices saved to {daily_path}")
 
-# Convert to weekly averages
-weekly_df = (
-    combined_df
-    .set_index("Date")
-    .groupby("Commodity")
-    .resample("W-Mon")  # weekly ending Monday
-    .mean(numeric_only=True)
-    .reset_index()
-)
+    weekly_df = (
+        combined_df.set_index("Date")
+        .groupby("Commodity")
+        .resample("W-Mon")
+        .mean(numeric_only=True)
+        .reset_index()
+    )
 
-weekly_df.to_csv('data/prices/crude_oil_weekly.csv', index=False)
-print("Weekly crude oil prices saved to data/prices/crude_oil_weekly.csv")
+    weekly_path = PRICE_DIR / "crude_oil_weekly.csv"
+    weekly_df.to_csv(weekly_path, index=False)
+    print(f"Weekly crude oil prices saved to {weekly_path}")
+
+
+if __name__ == "__main__":
+    main()

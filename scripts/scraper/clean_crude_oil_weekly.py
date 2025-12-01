@@ -1,60 +1,55 @@
+from pathlib import Path
+
 import pandas as pd
-import os
 
-# --- Setup ---
-input_path = "data/prices/crude_oil_weekly.csv"
-output_path = "data/prices/crude_oil_weekly_clean.csv"
+BASE_DIR = Path(__file__).resolve().parents[2]
+PRICE_DIR = BASE_DIR / "data" / "prices"
+PRICE_DIR.mkdir(parents=True, exist_ok=True)
 
-# Ensure folder exists
-os.makedirs("data/prices", exist_ok=True)
+INPUT_PATH = PRICE_DIR / "crude_oil_weekly.csv"
+OUTPUT_PATH = PRICE_DIR / "crude_oil_weekly_clean.csv"
 
-# --- Load Data ---
-df = pd.read_csv(input_path)
-print("Original columns:", df.columns.tolist())
 
-# Clean column names
-df.columns = df.columns.str.strip().str.replace(" ", "_").str.replace(".", "", regex=False)
+def main():
+    df = pd.read_csv(INPUT_PATH)
+    print("Original columns:", df.columns.tolist())
 
-# --- Split into WTI and Brent ---
-wti = df[["Date", "Open", "High", "Low", "Close", "Volume"]].copy()
-brent = df[["Date", "Open1", "High1", "Low1", "Close1", "Volume1"]].copy()
+    df.columns = df.columns.str.strip().str.replace(" ", "_").str.replace(".", "", regex=False)
 
-# Fix column names
-wti.columns = ["Date", "Open", "High", "Low", "Close", "Volume"]
-brent.columns = ["Date", "Open", "High", "Low", "Close", "Volume"]
+    wti = df[["Date", "Open", "High", "Low", "Close", "Volume"]].copy()
+    brent = df[["Date", "Open1", "High1", "Low1", "Close1", "Volume1"]].copy()
 
-# Add commodity names
-wti["Commodity"] = "WTI_Crude"
-brent["Commodity"] = "Brent_Crude"
+    wti.columns = ["Date", "Open", "High", "Low", "Close", "Volume"]
+    brent.columns = ["Date", "Open", "High", "Low", "Close", "Volume"]
 
-# --- Combine ---
-combined = pd.concat([wti, brent], ignore_index=True)
+    wti["Commodity"] = "WTI_Crude"
+    brent["Commodity"] = "Brent_Crude"
 
-# --- Clean Data ---
-# Remove rows that contain text like 'CL=F' or 'BZ=F' instead of numbers
-for col in ["Open", "High", "Low", "Close", "Volume"]:
-    combined = combined[~combined[col].astype(str).str.contains("CL=F|BZ=F|Brent|WTI|NaN", case=False, na=False)]
+    combined = pd.concat([wti, brent], ignore_index=True)
 
-# Convert date and numeric values
-combined["Date"] = pd.to_datetime(combined["Date"], errors="coerce")
+    for col in ["Open", "High", "Low", "Close", "Volume"]:
+        combined = combined[~combined[col].astype(str).str.contains("CL=F|BZ=F|Brent|WTI|NaN", case=False, na=False)]
 
-numeric_cols = ["Open", "High", "Low", "Close", "Volume"]
-for col in numeric_cols:
-    combined[col] = (
-        combined[col]
-        .astype(str)
-        .str.replace(",", "", regex=False)
-        .astype(float)
-    )
+    combined["Date"] = pd.to_datetime(combined["Date"], errors="coerce")
 
-# --- Sort & Save ---
-combined = combined[["Date", "Commodity", "Open", "High", "Low", "Close", "Volume"]]
-combined = combined.dropna(subset=["Date"]).sort_values(["Commodity", "Date"]).reset_index(drop=True)
+    numeric_cols = ["Open", "High", "Low", "Close", "Volume"]
+    for col in numeric_cols:
+        combined[col] = (
+            combined[col]
+            .astype(str)
+            .str.replace(",", "", regex=False)
+            .astype(float)
+        )
 
-# --- Save Clean File ---
-combined.to_csv(output_path, index=False)
-print(f"✅ Cleaned crude oil weekly data saved to {output_path}")
+    combined = combined[["Date", "Commodity", "Open", "High", "Low", "Close", "Volume"]]
+    combined = combined.dropna(subset=["Date"]).sort_values(["Commodity", "Date"]).reset_index(drop=True)
 
-# Optional summary
-print("\nSummary:")
-print(combined.groupby("Commodity")["Date"].agg(["min", "max", "count"]))
+    combined.to_csv(OUTPUT_PATH, index=False)
+    print(f"Cleaned crude oil weekly data saved to {OUTPUT_PATH}")
+
+    print("\nSummary:")
+    print(combined.groupby("Commodity")["Date"].agg(["min", "max", "count"]))
+
+
+if __name__ == "__main__":
+    main()

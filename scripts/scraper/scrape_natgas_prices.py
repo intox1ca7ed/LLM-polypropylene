@@ -1,29 +1,31 @@
-import yfinance as yf
-import pandas as pd
 from datetime import datetime
-import os
+from pathlib import Path
 
-# Ensure output folder exists
-os.makedirs('data/prices', exist_ok=True)
+import pandas as pd
+import yfinance as yf
 
-# Define ticker symbols and names
-tickers = {
-    "NG=F"
-}
+BASE_DIR = Path(__file__).resolve().parents[2]
+PRICE_DIR = BASE_DIR / "data" / "prices"
+PRICE_DIR.mkdir(parents=True, exist_ok=True)
 
-# Date range    
-start_date = "2015-01-01"
-end_date = datetime.now().strftime("%Y-%m-%d")
 
-print("Fetching natural gas price data...")
-df = yf.download("NG=F", start=start_date, end=end_date)
-df.reset_index(inplace=True)
+def main():
+    start_date = "2015-01-01"
+    end_date = datetime.now().strftime("%Y-%m-%d")
 
-#save daily data
-df.to_csv('data/prices/natgas_daily.csv', index=False)
-print("Daily natural gas prices saved to data/prices/natgas_daily.csv")
+    print("Fetching natural gas price data...")
+    df = yf.download("NG=F", start=start_date, end=end_date)
+    df.reset_index(inplace=True)
 
-# Convert to weekly averages
-weekly_df = (df.resample("W-Mon", on="Date").mean(numeric_only=True).reset_index())
-weekly_df.to_csv('data/prices/natgas_weekly.csv', index=False)
-print("Weekly natural gas prices saved to data/prices/natgas_weekly.csv")
+    daily_path = PRICE_DIR / "natgas_daily.csv"
+    df.to_csv(daily_path, index=False)
+    print(f"Daily natural gas prices saved to {daily_path}")
+
+    weekly_df = df.resample("W-Mon", on="Date").mean(numeric_only=True).reset_index()
+    weekly_path = PRICE_DIR / "natgas_weekly.csv"
+    weekly_df.to_csv(weekly_path, index=False)
+    print(f"Weekly natural gas prices saved to {weekly_path}")
+
+
+if __name__ == "__main__":
+    main()
