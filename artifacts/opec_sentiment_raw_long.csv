@@ -1,0 +1,746 @@
+report_date,section,sentiment_finbert,sentiment_gpt,source_file,base_sentiment,section_clean
+2019-01-31,World Oil Demand,0.9999671,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.9999671,demand
+2019-01-31,Product Markets and Refining Operations,0.6063469,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.6063469,price_outlook
+2019-01-31,Balance of Supply and Demand,-0.5722591,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.5722591,demand
+2019-01-31,World Oil Supply,0.22004431,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.22004431,supply
+2019-01-31,World Oil Demand,0.18691452,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.18691452,demand
+2019-01-31,World Oil Supply,-0.27134955,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.27134955,supply
+2019-01-31,Product Markets and Refining Operations,0.0013215311,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.0013215311,price_outlook
+2019-01-31,Balance of Supply and Demand,0.7109589,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.7109589,demand
+2019-02-28,World Oil Supply,0.9999166,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.9999166,supply
+2019-02-28,Product Markets and Refining Operations,0.9999976,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.9999976,price_outlook
+2019-02-28,Balance of Supply and Demand,0.9998232,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.9998232,demand
+2019-02-28,World Oil Demand,0.04454802,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.04454802,demand
+2019-02-28,World Oil Supply,0.19203268,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.19203268,supply
+2019-02-28,Product Markets and Refining Operations,0.61803085,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.61803085,price_outlook
+2019-02-28,Balance of Supply and Demand,-0.6666894,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.6666894,demand
+2019-02-28,hybrid,,-0.7,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,-0.7,overall
+2019-02-28,World Oil Demand,0.9988466,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.9988466,demand
+2019-03-31,World Oil Demand,0.49920228,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.49920228,demand
+2019-03-31,World Oil Supply,0.25403854,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.25403854,supply
+2019-03-31,Product Markets and Refining Operations,0.16087274,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.16087274,price_outlook
+2019-03-31,Balance of Supply and Demand,-0.66719645,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.66719645,demand
+2019-03-31,hybrid,,-0.7,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,-0.7,overall
+2019-03-31,World Oil Demand,-3.1910417e-08,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-3.1910417e-08,demand
+2019-03-31,World Oil Supply,-0.20037499,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.20037499,supply
+2019-03-31,Product Markets and Refining Operations,1.7101888e-07,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,1.7101888e-07,price_outlook
+2019-03-31,Balance of Supply and Demand,0.99678946,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.99678946,demand
+2019-04-30,Product Markets and Refining Operations,-0.008571607,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.008571607,price_outlook
+2019-04-30,World Oil Demand,3.0279598e-05,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,3.0279598e-05,demand
+2019-04-30,World Oil Supply,-0.043286324,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.043286324,supply
+2019-04-30,Product Markets and Refining Operations,3.982602e-08,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,3.982602e-08,price_outlook
+2019-04-30,Balance of Supply and Demand,0.9971912,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.9971912,demand
+2019-04-30,World Oil Demand,-0.49853563,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.49853563,demand
+2019-04-30,World Oil Supply,0.21676451,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.21676451,supply
+2019-04-30,hybrid,,-0.6,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,-0.6,overall
+2019-04-30,Balance of Supply and Demand,-0.6671323,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.6671323,demand
+2019-05-31,Product Markets and Refining Operations,0.9994844,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.9994844,price_outlook
+2019-05-31,Balance of Supply and Demand,-0.9491768,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.9491768,demand
+2019-05-31,Product Markets and Refining Operations,0.33888498,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.33888498,price_outlook
+2019-05-31,hybrid,,-0.3,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,-0.3,overall
+2019-05-31,World Oil Demand,0.018939538,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.018939538,demand
+2019-05-31,World Oil Supply,-0.696514,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.696514,supply
+2019-05-31,World Oil Demand,0.00832575,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.00832575,demand
+2019-05-31,World Oil Supply,0.17986178,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.17986178,supply
+2019-05-31,Balance of Supply and Demand,-0.74589324,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.74589324,demand
+2019-06-30,World Oil Demand,0.6313257,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.6313257,demand
+2019-06-30,World Oil Supply,0.22812502,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.22812502,supply
+2019-06-30,Product Markets and Refining Operations,0.46924627,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.46924627,price_outlook
+2019-06-30,Balance of Supply and Demand,-0.596021,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.596021,demand
+2019-06-30,World Oil Supply,-0.011930904,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.011930904,supply
+2019-06-30,Product Markets and Refining Operations,0.86984295,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.86984295,price_outlook
+2019-06-30,World Oil Demand,0.9999981,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.9999981,demand
+2019-06-30,Balance of Supply and Demand,0.9981745,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.9981745,demand
+2019-06-30,hybrid,,-0.7,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,-0.7,overall
+2019-07-31,World Oil Demand,-0.048134137,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.048134137,demand
+2019-07-31,World Oil Supply,-7.430573e-05,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-7.430573e-05,supply
+2019-07-31,Product Markets and Refining Operations,0.98347574,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.98347574,price_outlook
+2019-07-31,Balance of Supply and Demand,0.9990852,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.9990852,demand
+2019-07-31,hybrid,,-0.6,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,-0.6,overall
+2019-07-31,World Oil Demand,-0.01218062,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.01218062,demand
+2019-07-31,World Oil Supply,0.080929354,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.080929354,supply
+2019-07-31,Product Markets and Refining Operations,0.31540176,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.31540176,price_outlook
+2019-07-31,Balance of Supply and Demand,-0.6001787,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.6001787,demand
+2019-08-31,World Oil Demand,0.3425445,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.3425445,demand
+2019-08-31,Product Markets and Refining Operations,0.023984015,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.023984015,price_outlook
+2019-08-31,Balance of Supply and Demand,-0.94307387,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.94307387,demand
+2019-08-31,hybrid,,-0.6,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,-0.6,overall
+2019-08-31,Product Markets and Refining Operations,1.8184955e-09,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,1.8184955e-09,price_outlook
+2019-08-31,World Oil Supply,-0.00016037229,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.00016037229,supply
+2019-08-31,World Oil Demand,0.9962757,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.9962757,demand
+2019-08-31,World Oil Supply,0.012735819,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.012735819,supply
+2019-08-31,Balance of Supply and Demand,-0.7153792,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.7153792,demand
+2019-09-30,World Oil Supply,-0.00039385413,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.00039385413,supply
+2019-09-30,hybrid,,-0.4,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,-0.4,overall
+2019-09-30,Product Markets and Refining Operations,0.0011287797,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.0011287797,price_outlook
+2019-09-30,World Oil Demand,0.00053723686,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.00053723686,demand
+2019-09-30,Balance of Supply and Demand,0.003945142,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.003945142,demand
+2019-09-30,Balance of Supply and Demand,-0.7992047,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.7992047,demand
+2019-09-30,World Oil Demand,0.00053723686,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.00053723686,demand
+2019-09-30,World Oil Supply,0.2696281,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.2696281,supply
+2019-09-30,Product Markets and Refining Operations,0.37738666,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.37738666,price_outlook
+2019-10-31,World Oil Demand,0.99937034,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.99937034,demand
+2019-10-31,Product Markets and Refining Operations,7.032463e-06,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,7.032463e-06,price_outlook
+2019-10-31,Balance of Supply and Demand,-0.676696,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.676696,demand
+2019-10-31,hybrid,,-0.6,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,-0.6,overall
+2019-10-31,World Oil Demand,0.00010924041,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.00010924041,demand
+2019-10-31,World Oil Supply,0.097823426,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.097823426,supply
+2019-10-31,Product Markets and Refining Operations,-0.14486857,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.14486857,price_outlook
+2019-10-31,Balance of Supply and Demand,-0.93533695,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.93533695,demand
+2019-10-31,World Oil Supply,0.9964951,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.9964951,supply
+2019-11-30,hybrid,,-0.6,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,-0.6,overall
+2019-11-30,World Oil Supply,0.25402978,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.25402978,supply
+2019-11-30,Product Markets and Refining Operations,0.2469806,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.2469806,price_outlook
+2019-11-30,Balance of Supply and Demand,-0.8592966,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.8592966,demand
+2019-11-30,World Oil Demand,0.29036373,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.29036373,demand
+2019-11-30,Balance of Supply and Demand,-0.2964922,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.2964922,demand
+2019-11-30,Product Markets and Refining Operations,3.0756206e-07,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,3.0756206e-07,price_outlook
+2019-11-30,World Oil Supply,-0.037596,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.037596,supply
+2019-11-30,World Oil Demand,-0.00039750675,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.00039750675,demand
+2019-12-31,Balance of Supply and Demand,0.7759677,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.7759677,demand
+2019-12-31,Product Markets and Refining Operations,0.99999964,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.99999964,price_outlook
+2019-12-31,World Oil Supply,-0.07026061,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.07026061,supply
+2019-12-31,World Oil Demand,-6.048029e-05,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-6.048029e-05,demand
+2019-12-31,hybrid,,0.3,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,0.3,overall
+2019-12-31,Balance of Supply and Demand,-0.6448048,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.6448048,demand
+2019-12-31,Product Markets and Refining Operations,0.50000006,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.50000006,price_outlook
+2019-12-31,World Oil Supply,0.21738134,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.21738134,supply
+2019-12-31,World Oil Demand,-0.008287966,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.008287966,demand
+2020-01-31,World Oil Supply,0.25039697,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.25039697,supply
+2020-01-31,World Oil Demand,0.99827904,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.99827904,demand
+2020-01-31,hybrid,,-0.4,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,-0.4,overall
+2020-01-31,Balance of Supply and Demand,-0.751842,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.751842,demand
+2020-01-31,World Oil Demand,0.39923745,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.39923745,demand
+2020-01-31,Product Markets and Refining Operations,6.0276318e-05,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,6.0276318e-05,price_outlook
+2020-01-31,Balance of Supply and Demand,0.4280239,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.4280239,demand
+2020-01-31,Product Markets and Refining Operations,-2.0220268e-05,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-2.0220268e-05,price_outlook
+2020-01-31,World Oil Supply,-0.6328931,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.6328931,supply
+2020-02-29,Balance of Supply and Demand,0.93719643,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.93719643,demand
+2020-02-29,Product Markets and Refining Operations,1.9235856e-06,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,1.9235856e-06,price_outlook
+2020-02-29,World Oil Demand,0.99801415,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.99801415,demand
+2020-02-29,hybrid,,-0.8,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,-0.8,overall
+2020-02-29,World Oil Demand,0.658233,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.658233,demand
+2020-02-29,World Oil Supply,0.21784101,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.21784101,supply
+2020-02-29,Product Markets and Refining Operations,0.33319405,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.33319405,price_outlook
+2020-02-29,Balance of Supply and Demand,-0.60207963,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.60207963,demand
+2020-02-29,World Oil Supply,-0.0028483674,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.0028483674,supply
+2020-03-31,World Oil Demand,0.9404168,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.9404168,demand
+2020-03-31,World Oil Supply,0.20721245,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.20721245,supply
+2020-03-31,Product Markets and Refining Operations,0.68841106,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.68841106,price_outlook
+2020-03-31,World Oil Supply,-0.00874911,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.00874911,supply
+2020-03-31,Balance of Supply and Demand,-0.63424647,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.63424647,demand
+2020-03-31,Product Markets and Refining Operations,0.5634796,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.5634796,price_outlook
+2020-03-31,Balance of Supply and Demand,0.8286725,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.8286725,demand
+2020-03-31,World Oil Demand,0.99444306,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.99444306,demand
+2020-03-31,hybrid,,-0.8,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,-0.8,overall
+2020-04-30,World Oil Supply,0.3955478,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.3955478,supply
+2020-04-30,Product Markets and Refining Operations,-0.03930982,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.03930982,price_outlook
+2020-04-30,Balance of Supply and Demand,-0.68433076,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.68433076,demand
+2020-04-30,Balance of Supply and Demand,0.893927,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.893927,demand
+2020-04-30,World Oil Demand,0.017316988,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.017316988,demand
+2020-04-30,hybrid,,-0.9,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,-0.9,overall
+2020-04-30,Product Markets and Refining Operations,0.9492075,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.9492075,price_outlook
+2020-04-30,World Oil Supply,0.9213623,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.9213623,supply
+2020-04-30,World Oil Demand,0.9999535,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.9999535,demand
+2020-05-31,World Oil Demand,0.99986637,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.99986637,demand
+2020-05-31,Product Markets and Refining Operations,0.0064924844,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.0064924844,price_outlook
+2020-05-31,Balance of Supply and Demand,0.94703585,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.94703585,demand
+2020-05-31,Balance of Supply and Demand,-0.61059016,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.61059016,demand
+2020-05-31,Product Markets and Refining Operations,0.015459182,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.015459182,price_outlook
+2020-05-31,World Oil Supply,0.08473019,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.08473019,supply
+2020-05-31,World Oil Demand,0.045306787,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.045306787,demand
+2020-05-31,hybrid,,-0.8,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,-0.8,overall
+2020-05-31,World Oil Supply,0.9970747,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.9970747,supply
+2020-06-30,World Oil Demand,0.99999624,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.99999624,demand
+2020-06-30,World Oil Supply,0.99981177,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.99981177,supply
+2020-06-30,Balance of Supply and Demand,-0.57877856,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.57877856,demand
+2020-06-30,World Oil Demand,0.5999938,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.5999938,demand
+2020-06-30,hybrid,,-0.8,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,-0.8,overall
+2020-06-30,Product Markets and Refining Operations,0.99987364,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.99987364,price_outlook
+2020-06-30,Balance of Supply and Demand,0.921249,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.921249,demand
+2020-06-30,World Oil Supply,0.26861364,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.26861364,supply
+2020-06-30,Product Markets and Refining Operations,0.21798897,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.21798897,price_outlook
+2020-07-31,World Oil Demand,0.333585,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.333585,demand
+2020-07-31,hybrid,,0.8,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,0.8,overall
+2020-07-31,World Oil Demand,0.9999895,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.9999895,demand
+2020-07-31,Product Markets and Refining Operations,3.384023e-05,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,3.384023e-05,price_outlook
+2020-07-31,World Oil Supply,0.99997246,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.99997246,supply
+2020-07-31,Balance of Supply and Demand,-0.011166598,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.011166598,demand
+2020-07-31,World Oil Supply,0.1632603,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.1632603,supply
+2020-07-31,Balance of Supply and Demand,-0.8022312,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.8022312,demand
+2020-07-31,Product Markets and Refining Operations,-0.19745061,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.19745061,price_outlook
+2020-08-31,World Oil Supply,-0.93150467,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.93150467,supply
+2020-08-31,hybrid,,-0.4,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,-0.4,overall
+2020-08-31,Product Markets and Refining Operations,0.30991554,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.30991554,price_outlook
+2020-08-31,World Oil Supply,0.20079485,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.20079485,supply
+2020-08-31,World Oil Demand,0.3725032,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.3725032,demand
+2020-08-31,World Oil Demand,-0.7256462,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.7256462,demand
+2020-08-31,Product Markets and Refining Operations,7.925855e-07,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,7.925855e-07,price_outlook
+2020-08-31,Balance of Supply and Demand,0.73105216,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.73105216,demand
+2020-08-31,Balance of Supply and Demand,-0.653787,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.653787,demand
+2020-09-30,hybrid,,-0.6,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,-0.6,overall
+2020-09-30,Balance of Supply and Demand,0.947772,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.947772,demand
+2020-09-30,World Oil Demand,0.22892103,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.22892103,demand
+2020-09-30,World Oil Demand,0.1454078,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.1454078,demand
+2020-09-30,Balance of Supply and Demand,-0.61044246,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.61044246,demand
+2020-09-30,Product Markets and Refining Operations,0.57640857,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.57640857,price_outlook
+2020-09-30,World Oil Supply,0.17076,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.17076,supply
+2020-09-30,Product Markets and Refining Operations,0.9999984,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.9999984,price_outlook
+2020-09-30,World Oil Supply,0.39878756,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.39878756,supply
+2020-10-31,World Oil Demand,0.9408574,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.9408574,demand
+2020-10-31,World Oil Supply,0.9996546,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.9996546,supply
+2020-10-31,Product Markets and Refining Operations,0.9930824,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.9930824,price_outlook
+2020-10-31,Balance of Supply and Demand,0.6970586,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.6970586,demand
+2020-10-31,Balance of Supply and Demand,-0.66058505,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.66058505,demand
+2020-10-31,World Oil Demand,0.47042876,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.47042876,demand
+2020-10-31,World Oil Supply,0.1665605,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.1665605,supply
+2020-10-31,Product Markets and Refining Operations,0.556977,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.556977,price_outlook
+2020-10-31,hybrid,,-0.6,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,-0.6,overall
+2020-11-30,Product Markets and Refining Operations,0.9995115,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.9995115,price_outlook
+2020-11-30,World Oil Demand,0.39511418,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.39511418,demand
+2020-11-30,World Oil Supply,0.19438584,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.19438584,supply
+2020-11-30,Product Markets and Refining Operations,0.572763,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.572763,price_outlook
+2020-11-30,Balance of Supply and Demand,-0.7242282,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.7242282,demand
+2020-11-30,World Oil Supply,0.9981486,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.9981486,supply
+2020-11-30,Balance of Supply and Demand,-0.15483582,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.15483582,demand
+2020-11-30,World Oil Demand,0.9788099,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.9788099,demand
+2020-11-30,hybrid,,0.6,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,0.6,overall
+2020-12-31,hybrid,,0.4,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,0.4,overall
+2020-12-31,World Oil Supply,0.15999058,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.15999058,supply
+2020-12-31,Product Markets and Refining Operations,0.6403589,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.6403589,price_outlook
+2020-12-31,World Oil Demand,-0.11383552,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.11383552,demand
+2020-12-31,World Oil Supply,0.29204705,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.29204705,supply
+2020-12-31,Balance of Supply and Demand,-0.7531515,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.7531515,demand
+2020-12-31,World Oil Demand,0.017127816,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.017127816,demand
+2020-12-31,Product Markets and Refining Operations,0.9999896,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.9999896,price_outlook
+2020-12-31,Balance of Supply and Demand,-0.012612614,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.012612614,demand
+2021-01-31,hybrid,,0.7,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,0.7,overall
+2021-01-31,Balance of Supply and Demand,-0.95343393,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.95343393,demand
+2021-01-31,Product Markets and Refining Operations,0.038486347,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.038486347,price_outlook
+2021-01-31,World Oil Supply,0.20809436,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.20809436,supply
+2021-01-31,World Oil Demand,-4.5152944e-07,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-4.5152944e-07,demand
+2021-01-31,World Oil Demand,0.49994183,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.49994183,demand
+2021-01-31,World Oil Supply,0.10408807,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.10408807,supply
+2021-01-31,Product Markets and Refining Operations,0.50770575,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.50770575,price_outlook
+2021-01-31,Balance of Supply and Demand,-0.9906832,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.9906832,demand
+2021-02-28,World Oil Demand,1.7859338e-06,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,1.7859338e-06,demand
+2021-02-28,Balance of Supply and Demand,-0.9347117,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.9347117,demand
+2021-02-28,hybrid,,0.7,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,0.7,overall
+2021-02-28,World Oil Supply,-0.08599048,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.08599048,supply
+2021-02-28,Product Markets and Refining Operations,5.1422923e-08,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,5.1422923e-08,price_outlook
+2021-02-28,World Oil Demand,1.7859338e-06,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,1.7859338e-06,demand
+2021-02-28,Product Markets and Refining Operations,0.063525654,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.063525654,price_outlook
+2021-02-28,World Oil Supply,0.19245669,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.19245669,supply
+2021-02-28,Balance of Supply and Demand,-0.84870607,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.84870607,demand
+2021-03-31,World Oil Demand,-0.6668761,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.6668761,demand
+2021-03-31,Balance of Supply and Demand,0.770687,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.770687,demand
+2021-03-31,hybrid,,0.4,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,0.4,overall
+2021-03-31,World Oil Demand,-0.33410403,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.33410403,demand
+2021-03-31,World Oil Supply,0.999689,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.999689,supply
+2021-03-31,Balance of Supply and Demand,-0.5643083,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.5643083,demand
+2021-03-31,Product Markets and Refining Operations,0.47854438,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.47854438,price_outlook
+2021-03-31,World Oil Supply,0.23676313,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.23676313,supply
+2021-03-31,Product Markets and Refining Operations,0.99995303,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.99995303,price_outlook
+2021-04-30,Balance of Supply and Demand,-0.5390893,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.5390893,demand
+2021-04-30,Product Markets and Refining Operations,0.3559416,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.3559416,price_outlook
+2021-04-30,World Oil Supply,0.21984114,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.21984114,supply
+2021-04-30,World Oil Demand,0.39994082,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.39994082,demand
+2021-04-30,World Oil Demand,0.9999475,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.9999475,demand
+2021-04-30,World Oil Supply,-0.020924624,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.020924624,supply
+2021-04-30,Product Markets and Refining Operations,0.4786246,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.4786246,price_outlook
+2021-04-30,Balance of Supply and Demand,-0.67954123,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.67954123,demand
+2021-04-30,hybrid,,0.7,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,0.7,overall
+2021-05-31,World Oil Demand,0.99997294,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.99997294,demand
+2021-05-31,Product Markets and Refining Operations,3.5122848e-06,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,3.5122848e-06,price_outlook
+2021-05-31,hybrid,,0.3,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,0.3,overall
+2021-05-31,World Oil Supply,0.99875414,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.99875414,supply
+2021-05-31,World Oil Demand,0.60192853,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.60192853,demand
+2021-05-31,World Oil Supply,0.28828797,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.28828797,supply
+2021-05-31,Product Markets and Refining Operations,0.38836735,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.38836735,price_outlook
+2021-05-31,Balance of Supply and Demand,-0.52963257,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.52963257,demand
+2021-05-31,Balance of Supply and Demand,-0.61032385,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.61032385,demand
+2021-06-30,World Oil Supply,-2.9084329e-06,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-2.9084329e-06,supply
+2021-06-30,World Oil Demand,-0.20198102,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.20198102,demand
+2021-06-30,World Oil Supply,0.2369414,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.2369414,supply
+2021-06-30,World Oil Demand,0.00069971563,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.00069971563,demand
+2021-06-30,Balance of Supply and Demand,-0.98234034,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.98234034,demand
+2021-06-30,hybrid,,0.7,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,0.7,overall
+2021-06-30,Product Markets and Refining Operations,0.99999607,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.99999607,price_outlook
+2021-06-30,Balance of Supply and Demand,-0.99960124,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.99960124,demand
+2021-06-30,Product Markets and Refining Operations,0.65347314,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.65347314,price_outlook
+2021-07-31,World Oil Demand,8.7847e-08,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,8.7847e-08,demand
+2021-07-31,World Oil Supply,-0.0007756805,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.0007756805,supply
+2021-07-31,Product Markets and Refining Operations,0.17720672,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.17720672,price_outlook
+2021-07-31,Balance of Supply and Demand,-0.0039808606,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.0039808606,demand
+2021-07-31,World Oil Supply,0.1576462,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.1576462,supply
+2021-07-31,Balance of Supply and Demand,-0.8007946,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.8007946,demand
+2021-07-31,Product Markets and Refining Operations,0.18340948,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.18340948,price_outlook
+2021-07-31,hybrid,,0.7,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,0.7,overall
+2021-07-31,World Oil Demand,8.7847e-08,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,8.7847e-08,demand
+2021-08-31,Balance of Supply and Demand,0.941446,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.941446,demand
+2021-08-31,World Oil Supply,-0.00028740332,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.00028740332,supply
+2021-08-31,World Oil Demand,-0.3336432,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.3336432,demand
+2021-08-31,World Oil Supply,0.34140497,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.34140497,supply
+2021-08-31,hybrid,,0.6,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,0.6,overall
+2021-08-31,World Oil Demand,-0.00092213077,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.00092213077,demand
+2021-08-31,Product Markets and Refining Operations,0.35822326,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.35822326,price_outlook
+2021-08-31,Balance of Supply and Demand,-0.6117086,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.6117086,demand
+2021-08-31,Product Markets and Refining Operations,2.1346727e-08,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,2.1346727e-08,price_outlook
+2021-09-30,World Oil Demand,-5.2817196e-08,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-5.2817196e-08,demand
+2021-09-30,World Oil Supply,0.99986345,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.99986345,supply
+2021-09-30,Product Markets and Refining Operations,1.2653126e-08,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,1.2653126e-08,price_outlook
+2021-09-30,Balance of Supply and Demand,-0.55457824,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.55457824,demand
+2021-09-30,Product Markets and Refining Operations,0.12123865,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.12123865,price_outlook
+2021-09-30,World Oil Supply,0.2766537,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.2766537,supply
+2021-09-30,World Oil Demand,-0.2503932,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.2503932,demand
+2021-09-30,hybrid,,0.8,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,0.8,overall
+2021-09-30,Balance of Supply and Demand,-0.91091365,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.91091365,demand
+2021-10-31,World Oil Demand,-0.333321,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.333321,demand
+2021-10-31,World Oil Supply,0.23637323,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.23637323,supply
+2021-10-31,Product Markets and Refining Operations,0.5975267,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.5975267,price_outlook
+2021-10-31,Balance of Supply and Demand,-0.9364768,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.9364768,demand
+2021-10-31,World Oil Supply,-0.000258951,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.000258951,supply
+2021-10-31,World Oil Demand,-1.57004e-06,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-1.57004e-06,demand
+2021-10-31,Product Markets and Refining Operations,0.9926446,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.9926446,price_outlook
+2021-10-31,Balance of Supply and Demand,-0.68240523,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.68240523,demand
+2021-10-31,hybrid,,0.7,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,0.7,overall
+2021-11-30,World Oil Demand,-0.0013026358,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.0013026358,demand
+2021-11-30,Balance of Supply and Demand,-0.5510328,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.5510328,demand
+2021-11-30,World Oil Demand,-0.00065131934,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.00065131934,demand
+2021-11-30,Product Markets and Refining Operations,0.24912927,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.24912927,price_outlook
+2021-11-30,World Oil Supply,0.18357292,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.18357292,supply
+2021-11-30,World Oil Supply,-0.00039086625,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.00039086625,supply
+2021-11-30,hybrid,,0.7,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,0.7,overall
+2021-11-30,Balance of Supply and Demand,0.7958655,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.7958655,demand
+2021-11-30,Product Markets and Refining Operations,7.737073e-06,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,7.737073e-06,price_outlook
+2021-12-31,World Oil Demand,-4.7939135e-05,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-4.7939135e-05,demand
+2021-12-31,World Oil Supply,-0.00018079484,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.00018079484,supply
+2021-12-31,Product Markets and Refining Operations,0.99999946,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.99999946,price_outlook
+2021-12-31,Balance of Supply and Demand,-0.7163258,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.7163258,demand
+2021-12-31,Balance of Supply and Demand,-0.94326174,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.94326174,demand
+2021-12-31,World Oil Supply,0.3306087,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.3306087,supply
+2021-12-31,World Oil Demand,-0.027556444,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.027556444,demand
+2021-12-31,hybrid,,0.7,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,0.7,overall
+2021-12-31,Product Markets and Refining Operations,0.7627069,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.7627069,price_outlook
+2022-01-31,World Oil Supply,0.27245986,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.27245986,supply
+2022-01-31,Balance of Supply and Demand,-0.18604976,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.18604976,demand
+2022-01-31,Balance of Supply and Demand,-0.83720714,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.83720714,demand
+2022-01-31,World Oil Supply,-0.00087431737,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.00087431737,supply
+2022-01-31,World Oil Demand,0.10880586,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.10880586,demand
+2022-01-31,Product Markets and Refining Operations,1.2081698e-07,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,1.2081698e-07,price_outlook
+2022-01-31,Product Markets and Refining Operations,0.47568646,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.47568646,price_outlook
+2022-01-31,World Oil Demand,0.05440805,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.05440805,demand
+2022-01-31,hybrid,,0.4,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,0.4,overall
+2022-02-28,Balance of Supply and Demand,-0.80513906,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.80513906,demand
+2022-02-28,Product Markets and Refining Operations,0.4214971,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.4214971,price_outlook
+2022-02-28,World Oil Supply,0.23728505,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.23728505,supply
+2022-02-28,World Oil Demand,-0.3333247,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.3333247,demand
+2022-02-28,hybrid,,0.7,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,0.7,overall
+2022-02-28,Balance of Supply and Demand,-0.02570563,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.02570563,demand
+2022-02-28,Product Markets and Refining Operations,2.6673998e-08,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,2.6673998e-08,price_outlook
+2022-02-28,World Oil Supply,-0.0022835047,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.0022835047,supply
+2022-02-28,World Oil Demand,-7.3967713e-06,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-7.3967713e-06,demand
+2022-03-31,Balance of Supply and Demand,-0.98880553,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.98880553,demand
+2022-03-31,Product Markets and Refining Operations,1.6017798e-06,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,1.6017798e-06,price_outlook
+2022-03-31,World Oil Supply,-0.0006027657,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.0006027657,supply
+2022-03-31,World Oil Demand,0.0032259547,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.0032259547,demand
+2022-03-31,Balance of Supply and Demand,-0.9977602,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.9977602,demand
+2022-03-31,World Oil Supply,0.19538721,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.19538721,supply
+2022-03-31,World Oil Demand,-0.19941244,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.19941244,demand
+2022-03-31,Product Markets and Refining Operations,0.5952064,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.5952064,price_outlook
+2022-03-31,hybrid,,0.6,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,0.6,overall
+2022-04-30,Balance of Supply and Demand,-0.558601,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.558601,demand
+2022-04-30,Product Markets and Refining Operations,0.002604854,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.002604854,price_outlook
+2022-04-30,World Oil Supply,-0.0005114808,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.0005114808,supply
+2022-04-30,World Oil Demand,-0.00017661348,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.00017661348,demand
+2022-04-30,hybrid,,-0.4,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,-0.4,overall
+2022-04-30,Balance of Supply and Demand,-0.91171855,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.91171855,demand
+2022-04-30,World Oil Demand,-0.20383993,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.20383993,demand
+2022-04-30,Product Markets and Refining Operations,0.25543085,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.25543085,price_outlook
+2022-04-30,World Oil Supply,0.24202697,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.24202697,supply
+2022-05-31,Product Markets and Refining Operations,0.32756835,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.32756835,price_outlook
+2022-05-31,hybrid,,-0.6,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,-0.6,overall
+2022-05-31,World Oil Demand,-0.33323014,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.33323014,demand
+2022-05-31,Balance of Supply and Demand,-0.9940189,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.9940189,demand
+2022-05-31,World Oil Demand,-4.116107e-05,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-4.116107e-05,demand
+2022-05-31,World Oil Supply,0.99979335,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.99979335,supply
+2022-05-31,Product Markets and Refining Operations,0.006255872,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.006255872,price_outlook
+2022-05-31,Balance of Supply and Demand,-0.9988016,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.9988016,demand
+2022-05-31,World Oil Supply,0.15639584,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.15639584,supply
+2022-06-30,hybrid,,-0.6,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,-0.6,overall
+2022-06-30,Product Markets and Refining Operations,0.49467215,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.49467215,price_outlook
+2022-06-30,Balance of Supply and Demand,-0.99951905,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.99951905,demand
+2022-06-30,World Oil Demand,-0.1999347,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.1999347,demand
+2022-06-30,World Oil Demand,2.4291449e-08,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,2.4291449e-08,demand
+2022-06-30,World Oil Supply,0.9933112,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.9933112,supply
+2022-06-30,Product Markets and Refining Operations,2.3150793e-08,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,2.3150793e-08,price_outlook
+2022-06-30,Balance of Supply and Demand,-0.99760586,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.99760586,demand
+2022-06-30,World Oil Supply,0.2524421,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.2524421,supply
+2022-07-31,World Oil Demand,-6.867533e-08,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-6.867533e-08,demand
+2022-07-31,Product Markets and Refining Operations,0.0010912744,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.0010912744,price_outlook
+2022-07-31,Balance of Supply and Demand,-0.034145124,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.034145124,demand
+2022-07-31,World Oil Supply,-7.414229e-05,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-7.414229e-05,supply
+2022-07-31,World Oil Demand,-6.867533e-08,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-6.867533e-08,demand
+2022-07-31,World Oil Supply,0.28320673,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.28320673,supply
+2022-07-31,Balance of Supply and Demand,-0.8068277,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.8068277,demand
+2022-07-31,hybrid,,0.6,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,0.6,overall
+2022-07-31,Product Markets and Refining Operations,0.5568404,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.5568404,price_outlook
+2022-08-31,World Oil Supply,0.2616489,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.2616489,supply
+2022-08-31,World Oil Demand,-0.16666177,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.16666177,demand
+2022-08-31,hybrid,,0.7,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,0.7,overall
+2022-08-31,Product Markets and Refining Operations,0.51667804,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.51667804,price_outlook
+2022-08-31,Product Markets and Refining Operations,0.9999983,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.9999983,price_outlook
+2022-08-31,Balance of Supply and Demand,-0.32322606,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.32322606,demand
+2022-08-31,World Oil Demand,-3.8252688e-07,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-3.8252688e-07,demand
+2022-08-31,World Oil Supply,-4.9484544e-05,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-4.9484544e-05,supply
+2022-08-31,Balance of Supply and Demand,-0.8646368,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.8646368,demand
+2022-09-30,Balance of Supply and Demand,-0.99994916,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.99994916,demand
+2022-09-30,World Oil Supply,0.24795935,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.24795935,supply
+2022-09-30,Product Markets and Refining Operations,0.69663286,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.69663286,price_outlook
+2022-09-30,World Oil Supply,-0.0009082337,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.0009082337,supply
+2022-09-30,hybrid,,0.6,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,0.6,overall
+2022-09-30,Balance of Supply and Demand,-0.99975723,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.99975723,demand
+2022-09-30,Product Markets and Refining Operations,0.99999595,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.99999595,price_outlook
+2022-09-30,World Oil Demand,0.003994664,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.003994664,demand
+2022-09-30,World Oil Demand,-3.2282095e-08,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-3.2282095e-08,demand
+2022-10-31,World Oil Supply,0.1659526,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.1659526,supply
+2022-10-31,Product Markets and Refining Operations,0.2186363,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.2186363,price_outlook
+2022-10-31,Balance of Supply and Demand,-0.71624184,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.71624184,demand
+2022-10-31,hybrid,,0.6,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,0.6,overall
+2022-10-31,World Oil Demand,-3.3181612e-07,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-3.3181612e-07,demand
+2022-10-31,Product Markets and Refining Operations,0.09431496,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.09431496,price_outlook
+2022-10-31,World Oil Supply,-0.0016342617,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.0016342617,supply
+2022-10-31,World Oil Demand,-1.3026178e-07,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-1.3026178e-07,demand
+2022-10-31,Balance of Supply and Demand,0.41877997,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.41877997,demand
+2022-11-30,Balance of Supply and Demand,-0.6717846,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.6717846,demand
+2022-11-30,hybrid,,0.3,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,0.3,overall
+2022-11-30,Product Markets and Refining Operations,0.28439873,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.28439873,price_outlook
+2022-11-30,World Oil Supply,0.13847427,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.13847427,supply
+2022-11-30,World Oil Demand,-1.1945953e-06,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-1.1945953e-06,demand
+2022-11-30,World Oil Supply,-0.0012323699,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.0012323699,supply
+2022-11-30,Product Markets and Refining Operations,6.7789597e-06,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,6.7789597e-06,price_outlook
+2022-11-30,Balance of Supply and Demand,0.641067,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.641067,demand
+2022-11-30,World Oil Demand,-4.2145103e-07,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-4.2145103e-07,demand
+2022-12-31,World Oil Demand,-1.9915612e-07,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-1.9915612e-07,demand
+2022-12-31,Product Markets and Refining Operations,1.2101023e-07,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,1.2101023e-07,price_outlook
+2022-12-31,Balance of Supply and Demand,-0.99917656,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.99917656,demand
+2022-12-31,hybrid,,0.4,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,0.4,overall
+2022-12-31,World Oil Supply,-0.00083835726,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.00083835726,supply
+2022-12-31,World Oil Demand,-1.1164293e-07,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-1.1164293e-07,demand
+2022-12-31,World Oil Supply,0.08889433,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.08889433,supply
+2022-12-31,Product Markets and Refining Operations,0.49646974,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.49646974,price_outlook
+2022-12-31,Balance of Supply and Demand,-0.9998306,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.9998306,demand
+2023-01-31,hybrid,,0.4,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,0.4,overall
+2023-01-31,Balance of Supply and Demand,-0.89413226,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.89413226,demand
+2023-01-31,Product Markets and Refining Operations,0.5844899,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.5844899,price_outlook
+2023-01-31,World Oil Supply,0.10871721,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.10871721,supply
+2023-01-31,Balance of Supply and Demand,-0.4706698,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.4706698,demand
+2023-01-31,Product Markets and Refining Operations,0.9999985,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.9999985,price_outlook
+2023-01-31,World Oil Supply,-0.0005505436,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.0005505436,supply
+2023-01-31,World Oil Demand,-2.596009e-06,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-2.596009e-06,demand
+2023-01-31,World Oil Demand,-0.14281528,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.14281528,demand
+2023-02-28,World Oil Demand,-7.982515e-07,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-7.982515e-07,demand
+2023-02-28,World Oil Demand,-0.47563508,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.47563508,demand
+2023-02-28,World Oil Supply,0.10366496,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.10366496,supply
+2023-02-28,Product Markets and Refining Operations,0.56748134,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.56748134,price_outlook
+2023-02-28,Balance of Supply and Demand,-0.8103695,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.8103695,demand
+2023-02-28,World Oil Supply,-0.00085979473,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.00085979473,supply
+2023-02-28,Product Markets and Refining Operations,1.2762793e-08,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,1.2762793e-08,price_outlook
+2023-02-28,hybrid,,0.3,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,0.3,overall
+2023-02-28,Balance of Supply and Demand,-0.051855784,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.051855784,demand
+2023-03-31,hybrid,,-0.4,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,-0.4,overall
+2023-03-31,Product Markets and Refining Operations,0.9993392,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.9993392,price_outlook
+2023-03-31,World Oil Demand,-0.24973461,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.24973461,demand
+2023-03-31,World Oil Supply,-0.0010124759,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.0010124759,supply
+2023-03-31,World Oil Demand,-8.1154385e-06,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-8.1154385e-06,demand
+2023-03-31,Balance of Supply and Demand,-0.92534566,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.92534566,demand
+2023-03-31,World Oil Supply,0.08086328,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.08086328,supply
+2023-03-31,Product Markets and Refining Operations,0.67533016,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.67533016,price_outlook
+2023-03-31,Balance of Supply and Demand,-0.98506576,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.98506576,demand
+2023-04-30,hybrid,,0.4,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,0.4,overall
+2023-04-30,World Oil Demand,-0.24999967,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.24999967,demand
+2023-04-30,World Oil Supply,0.03856742,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.03856742,supply
+2023-04-30,Product Markets and Refining Operations,0.34613734,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.34613734,price_outlook
+2023-04-30,Balance of Supply and Demand,-0.997908,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.997908,demand
+2023-04-30,Balance of Supply and Demand,-0.98955345,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.98955345,demand
+2023-04-30,Product Markets and Refining Operations,0.0004034435,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.0004034435,price_outlook
+2023-04-30,World Oil Supply,0.90579194,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.90579194,supply
+2023-04-30,World Oil Demand,-1.5251092e-07,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-1.5251092e-07,demand
+2023-06-30,World Oil Demand,-0.33321628,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.33321628,demand
+2023-06-30,Balance of Supply and Demand,-0.89553547,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.89553547,demand
+2023-06-30,Product Markets and Refining Operations,0.17505045,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.17505045,price_outlook
+2023-06-30,World Oil Supply,0.10063068,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.10063068,supply
+2023-06-30,World Oil Demand,-0.33321628,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.33321628,demand
+2023-06-30,Balance of Supply and Demand,-0.89553547,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.89553547,demand
+2023-06-30,Product Markets and Refining Operations,0.17505045,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.17505045,price_outlook
+2023-06-30,hybrid,,0.6,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,0.6,overall
+2023-06-30,World Oil Supply,-0.46360493,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.46360493,supply
+2023-06-30,World Oil Supply,0.10063068,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.10063068,supply
+2023-06-30,Product Markets and Refining Operations,3.931066e-05,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,3.931066e-05,price_outlook
+2023-06-30,World Oil Demand,1.3146746e-08,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,1.3146746e-08,demand
+2023-06-30,World Oil Supply,-0.46360493,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.46360493,supply
+2023-06-30,Product Markets and Refining Operations,3.931066e-05,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,3.931066e-05,price_outlook
+2023-06-30,Balance of Supply and Demand,-0.9951474,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.9951474,demand
+2023-06-30,World Oil Demand,1.3146746e-08,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,1.3146746e-08,demand
+2023-06-30,Balance of Supply and Demand,-0.9951474,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.9951474,demand
+2023-07-31,Balance of Supply and Demand,-0.7565155,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.7565155,demand
+2023-07-31,Product Markets and Refining Operations,0.50440085,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.50440085,price_outlook
+2023-07-31,World Oil Supply,0.058595825,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.058595825,supply
+2023-07-31,Balance of Supply and Demand,-0.026068663,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.026068663,demand
+2023-07-31,Product Markets and Refining Operations,4.2758703e-08,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,4.2758703e-08,price_outlook
+2023-07-31,World Oil Supply,-0.02721447,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.02721447,supply
+2023-07-31,World Oil Demand,-1.8166915e-06,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-1.8166915e-06,demand
+2023-07-31,hybrid,,0.6,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,0.6,overall
+2023-07-31,World Oil Demand,-0.20005178,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.20005178,demand
+2023-08-31,World Oil Demand,-0.39513212,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.39513212,demand
+2023-08-31,Product Markets and Refining Operations,0.65587497,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.65587497,price_outlook
+2023-08-31,Balance of Supply and Demand,-0.5295032,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.5295032,demand
+2023-08-31,hybrid,,0.4,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,0.4,overall
+2023-08-31,World Oil Supply,0.1663313,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.1663313,supply
+2023-08-31,World Oil Demand,-1.2379559e-08,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-1.2379559e-08,demand
+2023-08-31,World Oil Supply,-0.21866977,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.21866977,supply
+2023-08-31,Product Markets and Refining Operations,5.2655114e-10,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,5.2655114e-10,price_outlook
+2023-08-31,Balance of Supply and Demand,0.8819824,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.8819824,demand
+2023-09-30,World Oil Supply,0.11468396,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.11468396,supply
+2023-09-30,Product Markets and Refining Operations,0.16688079,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.16688079,price_outlook
+2023-09-30,Balance of Supply and Demand,-0.85521156,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.85521156,demand
+2023-09-30,Balance of Supply and Demand,-0.42085275,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.42085275,demand
+2023-09-30,Product Markets and Refining Operations,1.3415755e-08,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,1.3415755e-08,price_outlook
+2023-09-30,World Oil Supply,-0.27226907,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.27226907,supply
+2023-09-30,World Oil Demand,-0.24941213,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.24941213,demand
+2023-09-30,hybrid,,0.3,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,0.3,overall
+2023-09-30,World Oil Demand,1.2532223e-07,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,1.2532223e-07,demand
+2023-10-31,World Oil Demand,0.16667555,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.16667555,demand
+2023-10-31,hybrid,,-0.4,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,-0.4,overall
+2023-10-31,World Oil Supply,-0.092482865,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.092482865,supply
+2023-10-31,Product Markets and Refining Operations,0.9999964,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.9999964,price_outlook
+2023-10-31,Balance of Supply and Demand,-0.7495014,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.7495014,demand
+2023-10-31,World Oil Demand,0.054751456,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.054751456,demand
+2023-10-31,World Oil Supply,0.14456429,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.14456429,supply
+2023-10-31,Product Markets and Refining Operations,0.6173879,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.6173879,price_outlook
+2023-10-31,Balance of Supply and Demand,-0.9373741,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.9373741,demand
+2023-11-30,hybrid,,0.6,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,0.6,overall
+2023-11-30,Product Markets and Refining Operations,0.7085792,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.7085792,price_outlook
+2023-11-30,Balance of Supply and Demand,-0.9998602,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.9998602,demand
+2023-11-30,Product Markets and Refining Operations,0.9994969,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.9994969,price_outlook
+2023-11-30,World Oil Supply,-0.056551766,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.056551766,supply
+2023-11-30,World Oil Demand,-6.7235932e-09,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-6.7235932e-09,demand
+2023-11-30,Balance of Supply and Demand,-0.9999688,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.9999688,demand
+2023-11-30,World Oil Demand,-6.2727173e-07,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-6.2727173e-07,demand
+2023-11-30,World Oil Supply,0.25172535,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.25172535,supply
+2023-12-31,Product Markets and Refining Operations,0.4568831,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.4568831,price_outlook
+2023-12-31,Balance of Supply and Demand,-0.9999226,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.9999226,demand
+2023-12-31,World Oil Supply,0.117242746,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.117242746,supply
+2023-12-31,World Oil Demand,-0.33322856,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.33322856,demand
+2023-12-31,hybrid,,0.6,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,0.6,overall
+2023-12-31,Balance of Supply and Demand,-0.99962777,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.99962777,demand
+2023-12-31,Product Markets and Refining Operations,0.9999695,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.9999695,price_outlook
+2023-12-31,World Oil Demand,-2.7668946e-06,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-2.7668946e-06,demand
+2023-12-31,World Oil Supply,0.87326825,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.87326825,supply
+2024-01-31,hybrid,,0.6,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,0.6,overall
+2024-01-31,Balance of Supply and Demand,-0.64331234,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.64331234,demand
+2024-01-31,Balance of Supply and Demand,-0.9404621,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.9404621,demand
+2024-01-31,Product Markets and Refining Operations,0.61332,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.61332,price_outlook
+2024-01-31,World Oil Supply,0.13882804,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.13882804,supply
+2024-01-31,World Oil Demand,-0.20000061,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.20000061,demand
+2024-01-31,World Oil Supply,0.7043438,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.7043438,supply
+2024-01-31,Product Markets and Refining Operations,0.9999764,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.9999764,price_outlook
+2024-01-31,World Oil Demand,-3.1724398e-06,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-3.1724398e-06,demand
+2024-02-29,World Oil Supply,0.86913866,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.86913866,supply
+2024-02-29,Product Markets and Refining Operations,0.99680984,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.99680984,price_outlook
+2024-02-29,Balance of Supply and Demand,0.110719115,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.110719115,demand
+2024-02-29,World Oil Demand,-9.0599976e-08,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-9.0599976e-08,demand
+2024-02-29,World Oil Demand,-7.916178e-08,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-7.916178e-08,demand
+2024-02-29,World Oil Supply,0.22003096,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.22003096,supply
+2024-02-29,Product Markets and Refining Operations,0.58687043,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.58687043,price_outlook
+2024-02-29,Balance of Supply and Demand,-0.777854,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.777854,demand
+2024-02-29,hybrid,,0.2,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,0.2,overall
+2024-03-31,World Oil Supply,-0.999566,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.999566,supply
+2024-03-31,World Oil Demand,-0.3333657,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.3333657,demand
+2024-03-31,World Oil Supply,0.19655117,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.19655117,supply
+2024-03-31,Product Markets and Refining Operations,0.02380023,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.02380023,price_outlook
+2024-03-31,Balance of Supply and Demand,-0.6865579,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.6865579,demand
+2024-03-31,hybrid,,-0.4,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,-0.4,overall
+2024-03-31,Product Markets and Refining Operations,2.7553671e-08,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,2.7553671e-08,price_outlook
+2024-03-31,World Oil Demand,-0.000110549605,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.000110549605,demand
+2024-03-31,Balance of Supply and Demand,0.56178176,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.56178176,demand
+2024-04-30,World Oil Demand,-0.00014433265,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.00014433265,demand
+2024-04-30,World Oil Demand,0.9994166,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.9994166,demand
+2024-04-30,World Oil Supply,-0.9978284,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.9978284,supply
+2024-04-30,Product Markets and Refining Operations,0.9975001,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.9975001,price_outlook
+2024-04-30,World Oil Supply,0.28999245,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.28999245,supply
+2024-04-30,hybrid,,0.6,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,0.6,overall
+2024-04-30,Product Markets and Refining Operations,0.9631671,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.9631671,price_outlook
+2024-04-30,Balance of Supply and Demand,-0.8334916,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.8334916,demand
+2024-04-30,Balance of Supply and Demand,-0.0010138343,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.0010138343,demand
+2024-05-31,World Oil Demand,0.01887905,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.01887905,demand
+2024-05-31,Balance of Supply and Demand,-0.9999978,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.9999978,demand
+2024-05-31,Balance of Supply and Demand,-0.9999978,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.9999978,demand
+2024-05-31,World Oil Demand,-0.19204554,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.19204554,demand
+2024-05-31,World Oil Supply,0.216592,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.216592,supply
+2024-05-31,hybrid,,0.3,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,0.3,overall
+2024-05-31,Product Markets and Refining Operations,0.24035542,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.24035542,price_outlook
+2024-05-31,World Oil Supply,-0.99999976,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.99999976,supply
+2024-05-31,Product Markets and Refining Operations,0.9999993,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.9999993,price_outlook
+2024-06-30,World Oil Demand,-0.0053690523,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.0053690523,demand
+2024-06-30,World Oil Supply,0.13000314,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.13000314,supply
+2024-06-30,Balance of Supply and Demand,-0.99868447,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.99868447,demand
+2024-06-30,World Oil Demand,0.9784492,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.9784492,demand
+2024-06-30,World Oil Supply,-0.99999976,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.99999976,supply
+2024-06-30,hybrid,,0.6,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,0.6,overall
+2024-06-30,Product Markets and Refining Operations,0.999972,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.999972,price_outlook
+2024-06-30,Balance of Supply and Demand,-0.9921168,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.9921168,demand
+2024-06-30,Product Markets and Refining Operations,0.461214,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.461214,price_outlook
+2024-07-31,Product Markets and Refining Operations,0.63213557,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.63213557,price_outlook
+2024-07-31,Balance of Supply and Demand,-0.97106236,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.97106236,demand
+2024-07-31,World Oil Demand,-1.603709e-05,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-1.603709e-05,demand
+2024-07-31,World Oil Supply,0.1693879,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.1693879,supply
+2024-07-31,Product Markets and Refining Operations,0.9909359,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.9909359,price_outlook
+2024-07-31,hybrid,,0.6,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,0.6,overall
+2024-07-31,World Oil Supply,-0.9999998,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.9999998,supply
+2024-07-31,Balance of Supply and Demand,-0.827705,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.827705,demand
+2024-07-31,World Oil Demand,-1.603709e-05,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-1.603709e-05,demand
+2024-08-31,hybrid,,-0.4,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,-0.4,overall
+2024-08-31,World Oil Demand,-6.0468315e-05,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-6.0468315e-05,demand
+2024-08-31,World Oil Supply,0.20240054,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.20240054,supply
+2024-08-31,Product Markets and Refining Operations,0.7187183,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.7187183,price_outlook
+2024-08-31,Balance of Supply and Demand,-0.92969465,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.92969465,demand
+2024-08-31,World Oil Demand,-0.00023048511,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.00023048511,demand
+2024-08-31,Balance of Supply and Demand,-0.61905164,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.61905164,demand
+2024-08-31,Product Markets and Refining Operations,0.0075203306,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.0075203306,price_outlook
+2024-08-31,World Oil Supply,-0.99999976,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.99999976,supply
+2024-09-30,Balance of Supply and Demand,-0.6073359,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.6073359,demand
+2024-09-30,hybrid,,0.4,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,0.4,overall
+2024-09-30,World Oil Demand,-0.0077208565,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.0077208565,demand
+2024-09-30,Product Markets and Refining Operations,0.38331196,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.38331196,price_outlook
+2024-09-30,World Oil Supply,0.17959002,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.17959002,supply
+2024-09-30,World Oil Demand,-0.0017645555,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.0017645555,demand
+2024-09-30,World Oil Supply,-0.9999998,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.9999998,supply
+2024-09-30,Product Markets and Refining Operations,0.9999986,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.9999986,price_outlook
+2024-09-30,Balance of Supply and Demand,-0.92835665,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.92835665,demand
+2024-10-31,hybrid,,-0.6,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,-0.6,overall
+2024-10-31,Balance of Supply and Demand,-0.93143606,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.93143606,demand
+2024-10-31,Product Markets and Refining Operations,0.37198958,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.37198958,price_outlook
+2024-10-31,World Oil Supply,0.23310652,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.23310652,supply
+2024-10-31,World Oil Demand,-0.33354783,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.33354783,demand
+2024-10-31,World Oil Demand,-1.5773229e-07,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-1.5773229e-07,demand
+2024-10-31,World Oil Supply,-0.99999994,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.99999994,supply
+2024-10-31,Product Markets and Refining Operations,0.99997175,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.99997175,price_outlook
+2024-10-31,Balance of Supply and Demand,-0.63483846,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.63483846,demand
+2024-11-30,Product Markets and Refining Operations,7.511103e-07,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,7.511103e-07,price_outlook
+2024-11-30,Balance of Supply and Demand,-0.9283789,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.9283789,demand
+2024-11-30,Product Markets and Refining Operations,0.12207659,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.12207659,price_outlook
+2024-11-30,World Oil Supply,0.088769354,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.088769354,supply
+2024-11-30,World Oil Demand,-0.16712773,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.16712773,demand
+2024-11-30,World Oil Supply,-0.9999998,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.9999998,supply
+2024-11-30,World Oil Demand,-5.151418e-07,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-5.151418e-07,demand
+2024-11-30,Balance of Supply and Demand,-0.61863834,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.61863834,demand
+2024-11-30,hybrid,,0.4,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,0.4,overall
+2024-12-31,World Oil Supply,0.27354115,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.27354115,supply
+2024-12-31,World Oil Demand,-7.333341e-05,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-7.333341e-05,demand
+2024-12-31,hybrid,,-0.6,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,-0.6,overall
+2024-12-31,Balance of Supply and Demand,-0.913179,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.913179,demand
+2024-12-31,Product Markets and Refining Operations,0.105470955,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.105470955,price_outlook
+2024-12-31,World Oil Supply,-0.9999998,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.9999998,supply
+2024-12-31,World Oil Demand,-5.690882e-07,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-5.690882e-07,demand
+2024-12-31,Product Markets and Refining Operations,0.52865124,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.52865124,price_outlook
+2024-12-31,Balance of Supply and Demand,-0.71848553,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.71848553,demand
+2025-01-31,World Oil Demand,0.99856687,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.99856687,demand
+2025-01-31,World Oil Supply,-0.9999998,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.9999998,supply
+2025-01-31,World Oil Demand,0.13148612,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.13148612,demand
+2025-01-31,Balance of Supply and Demand,-0.010103178,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.010103178,demand
+2025-01-31,hybrid,,-0.2,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,-0.2,overall
+2025-01-31,Product Markets and Refining Operations,0.9939844,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.9939844,price_outlook
+2025-01-31,World Oil Supply,0.16280423,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.16280423,supply
+2025-01-31,Balance of Supply and Demand,-0.8512899,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.8512899,demand
+2025-01-31,Product Markets and Refining Operations,0.5045698,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.5045698,price_outlook
+2025-02-28,hybrid,,0.6,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,0.6,overall
+2025-02-28,Balance of Supply and Demand,-0.85267967,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.85267967,demand
+2025-02-28,Product Markets and Refining Operations,0.49251583,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.49251583,price_outlook
+2025-02-28,World Oil Supply,0.2985234,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.2985234,supply
+2025-02-28,World Oil Demand,4.7434344e-07,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,4.7434344e-07,demand
+2025-02-28,World Oil Demand,0.16615601,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.16615601,demand
+2025-02-28,Product Markets and Refining Operations,0.99947566,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.99947566,price_outlook
+2025-02-28,Balance of Supply and Demand,-0.004133497,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.004133497,demand
+2025-02-28,World Oil Supply,-0.9999998,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.9999998,supply
+2025-03-31,Balance of Supply and Demand,-0.7991131,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.7991131,demand
+2025-03-31,World Oil Demand,-3.511178e-06,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-3.511178e-06,demand
+2025-03-31,World Oil Supply,-0.9999998,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.9999998,supply
+2025-03-31,Balance of Supply and Demand,-0.1629792,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.1629792,demand
+2025-03-31,World Oil Demand,0.4893463,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.4893463,demand
+2025-03-31,World Oil Supply,0.098265864,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.098265864,supply
+2025-03-31,Product Markets and Refining Operations,-6.3811704e-08,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-6.3811704e-08,price_outlook
+2025-03-31,Product Markets and Refining Operations,0.34207627,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.34207627,price_outlook
+2025-03-31,hybrid,,0.6,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,0.6,overall
+2025-04-30,Product Markets and Refining Operations,0.9999966,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.9999966,price_outlook
+2025-04-30,hybrid,,-0.6,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,-0.6,overall
+2025-04-30,Balance of Supply and Demand,-0.8243723,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.8243723,demand
+2025-04-30,World Oil Demand,-2.3687527e-08,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-2.3687527e-08,demand
+2025-04-30,World Oil Supply,-0.9999998,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.9999998,supply
+2025-04-30,Balance of Supply and Demand,-0.93965477,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.93965477,demand
+2025-04-30,Product Markets and Refining Operations,0.79090375,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.79090375,price_outlook
+2025-04-30,World Oil Supply,0.34440842,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.34440842,supply
+2025-04-30,World Oil Demand,0.24999915,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.24999915,demand
+2025-05-31,Balance of Supply and Demand,-0.085905425,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.085905425,demand
+2025-05-31,hybrid,,0.7,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,0.7,overall
+2025-05-31,Product Markets and Refining Operations,0.00277165,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.00277165,price_outlook
+2025-05-31,World Oil Demand,-6.7307745e-08,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-6.7307745e-08,demand
+2025-05-31,World Oil Supply,0.29470357,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.29470357,supply
+2025-05-31,Product Markets and Refining Operations,0.5190447,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.5190447,price_outlook
+2025-05-31,Balance of Supply and Demand,-0.80380255,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.80380255,demand
+2025-05-31,World Oil Demand,0.33287296,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.33287296,demand
+2025-05-31,World Oil Supply,-0.9999998,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.9999998,supply
+2025-06-30,Balance of Supply and Demand,-0.023322206,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.023322206,demand
+2025-06-30,Product Markets and Refining Operations,-1.4415903e-08,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-1.4415903e-08,price_outlook
+2025-06-30,World Oil Supply,-0.9999998,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.9999998,supply
+2025-06-30,World Oil Demand,0.09429624,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.09429624,demand
+2025-06-30,World Oil Supply,0.24994743,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.24994743,supply
+2025-06-30,Product Markets and Refining Operations,0.65802246,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.65802246,price_outlook
+2025-06-30,hybrid,,0.2,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,0.2,overall
+2025-06-30,World Oil Demand,-5.581463e-07,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-5.581463e-07,demand
+2025-06-30,Balance of Supply and Demand,-0.8002766,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.8002766,demand
+2025-07-31,World Oil Supply,0.23448206,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.23448206,supply
+2025-07-31,Product Markets and Refining Operations,0.99997383,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.99997383,price_outlook
+2025-07-31,Balance of Supply and Demand,-0.7468479,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.7468479,demand
+2025-07-31,World Oil Supply,-0.9999998,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.9999998,supply
+2025-07-31,World Oil Demand,-2.3823378e-07,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-2.3823378e-07,demand
+2025-07-31,hybrid,,0.7,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,0.7,overall
+2025-07-31,World Oil Demand,-0.20008747,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.20008747,demand
+2025-07-31,Balance of Supply and Demand,-0.9167049,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.9167049,demand
+2025-07-31,Product Markets and Refining Operations,0.46135494,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.46135494,price_outlook
+2025-08-31,hybrid,,0.7,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,0.7,overall
+2025-08-31,Balance of Supply and Demand,-0.95304376,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.95304376,demand
+2025-08-31,Product Markets and Refining Operations,0.6837882,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.6837882,price_outlook
+2025-08-31,World Oil Supply,0.24602468,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.24602468,supply
+2025-08-31,World Oil Demand,-4.8104564e-05,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-4.8104564e-05,demand
+2025-08-31,Balance of Supply and Demand,-0.8052219,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.8052219,demand
+2025-08-31,World Oil Demand,-4.8104564e-05,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-4.8104564e-05,demand
+2025-08-31,World Oil Supply,-0.9999998,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.9999998,supply
+2025-08-31,Product Markets and Refining Operations,4.7159174e-05,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,4.7159174e-05,price_outlook
+2025-09-30,Balance of Supply and Demand,-0.8895084,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.8895084,demand
+2025-09-30,hybrid,,0.3,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,0.3,overall
+2025-09-30,Product Markets and Refining Operations,0.82595265,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,0.82595265,price_outlook
+2025-09-30,World Oil Supply,0.2210933,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.2210933,supply
+2025-09-30,World Oil Demand,-0.00022970948,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.00022970948,demand
+2025-09-30,World Oil Demand,-0.50007707,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.50007707,demand
+2025-09-30,Product Markets and Refining Operations,0.5241815,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.5241815,price_outlook
+2025-09-30,Balance of Supply and Demand,-0.98050904,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.98050904,demand
+2025-09-30,World Oil Supply,-0.99999994,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.99999994,supply
+2025-10-31,World Oil Demand,-0.001062506,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.001062506,demand
+2025-10-31,World Oil Supply,-0.9999998,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.9999998,supply
+2025-10-31,Product Markets and Refining Operations,3.8580332e-05,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,3.8580332e-05,price_outlook
+2025-10-31,Balance of Supply and Demand,-0.76732135,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.76732135,demand
+2025-10-31,World Oil Demand,-0.25026548,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.25026548,demand
+2025-10-31,World Oil Supply,0.06387462,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.06387462,supply
+2025-10-31,hybrid,,0.4,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,0.4,overall
+2025-10-31,Product Markets and Refining Operations,0.34636703,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,0.34636703,price_outlook
+2025-10-31,Balance of Supply and Demand,-0.95816916,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.95816916,demand
+2025-11-30,Balance of Supply and Demand,-0.9453943,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.9453943,demand
+2025-11-30,World Oil Supply,-0.0180787,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.0180787,supply
+2025-11-30,Product Markets and Refining Operations,-0.05499824,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-0.05499824,price_outlook
+2025-11-30,Balance of Supply and Demand,-0.6794547,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.6794547,demand
+2025-11-30,Product Markets and Refining Operations,1.4406771e-07,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,1.4406771e-07,price_outlook
+2025-11-30,World Oil Supply,-0.9999998,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-0.9999998,supply
+2025-11-30,World Oil Demand,-1.5834141e-07,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert.csv,-1.5834141e-07,demand
+2025-11-30,World Oil Demand,-9.812627e-05,,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_features_finbert_chunked.csv,-9.812627e-05,demand
+2025-11-30,hybrid,,0.3,c:\PythonProjects\LLM-polypropylene\data\reports\energy\opec\opec_comparison_scores_gpt.csv,0.3,overall
