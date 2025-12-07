@@ -297,12 +297,17 @@ def _prepare_plot() -> plt.Figure:
 
 def plot_normalized_levels(df_norm: pd.DataFrame, title: str) -> plt.Figure:
     """
-    Plot normalized level series.
+    Plot normalized level series. PGP is drawn dashed/transparent to avoid overlap with PP.
     """
     fig = _prepare_plot()
     ax = fig.axes[0]
     for column in df_norm.columns:
-        ax.plot(df_norm.index, df_norm[column], label=column, linewidth=2)
+        style = {"linewidth": 2}
+        if column.upper() == "PP":
+            style.update({"linestyle": "-", "alpha": 1.0, "zorder": 3})
+        elif column.upper() == "PGP":
+            style.update({"linestyle": "--", "alpha": 0.7})
+        ax.plot(df_norm.index, df_norm[column], label=column, **style)
     ax.set_title(title)
     ax.set_ylabel("Index (Base = 100)")
     ax.set_xlabel("Date")
